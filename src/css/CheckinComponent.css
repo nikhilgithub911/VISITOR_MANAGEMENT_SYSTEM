@@ -1,0 +1,98 @@
+.parentcheckin {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blur_checkin_parent {
+  width: 85vw;
+  height: 70vh;
+  flex-shrink: 0;
+
+  border-radius: 18.145px;
+  background: linear-gradient(137deg,
+      rgba(255, 255, 255, 0.6) 6.45%,
+      rgba(255, 255, 255, 0.16) 101.03%);
+  backdrop-filter: blur(22.681161880493164px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 1.5em;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo_container {
+  width: 90%;
+  height: 80%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.selected_company {
+  width: 75%;
+  height: 20%;
+  flex-shrink: 0;
+
+  border-radius: 9.072px;
+  background: #fff;
+  box-shadow: 0px 0px 20px 0px rgba(224, 224, 224, 0.75);
+}
+
+.icons {
+  display: flex;
+  height: 80%;
+  justify-content: center;
+  align-items: center;
+  gap: 4em;
+  /* gap: 40%; */
+
+
+}
+
+.icons1 {
+  display: flex;
+  height: 80%;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.checkinicon {
+  background-color: #fff;
+  border-radius: 9.193px;
+  box-shadow: 0px 0px 20px 0px rgba(224, 224, 224, 0.36);
+  flex-shrink: 0;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* margin: auto; */
+
+}
+
+.checkouticon {
+  background-color: #fff;
+  background-color: #fff;
+  border-radius: 9.193px;
+  box-shadow: 0px 0px 20px 0px rgba(224, 224, 224, 0.36);
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media only screen and (min-width:768px) {
+  .icons {
+    gap: 9em
+  }
+}

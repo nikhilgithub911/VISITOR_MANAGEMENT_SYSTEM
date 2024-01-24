@@ -1,0 +1,41 @@
+.building_parent{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.parent1{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.forward_icon{
+    height:3.5rem;
+    width:3.5rem;
+}
+
+
+.building_textfield {
+    width: 20.625rem;
+    height: 3.5rem;
+    flex-shrink: 0;
+
+    border-radius: 0.625rem;
+    background: #FFF;
+    box-shadow: 2px 2px 4px 0px rgba(255, 255, 255, 0.75) inset;
+    border: none;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.4em;
+    margin-bottom: 1em;
+}
+
+.logo_text{
+    margin-bottom: 0.5em;
+}

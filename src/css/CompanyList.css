@@ -1,0 +1,92 @@
+.parentcompany {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.blur_parent {
+  width: 85vw;
+  height: 70vh;
+  flex-shrink: 0;
+  border-radius: 18.145px;
+  background: linear-gradient(137deg, rgba(255, 255, 255, 0.60) 6.45%, rgba(255, 255, 255, 0.16) 101.03%);
+  backdrop-filter: blur(22.681161880493164px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  overflow-y: auto;
+}
+
+.listting {
+
+  width: 85%;
+  height: 25%;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 9.072px;
+  background: #FFF;
+  box-shadow: 0px 0px 20px 0px rgba(224, 224, 224, 0.75);
+
+}
+
+.blur_parent_child::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+.blur_parent_child::-webkit-scrollbar-thumb {
+  /* background-color: #0071c5; */
+  background-color: transparent;
+}
+
+/* Hide scrollbar for Firefox */
+.blur_parent_child {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+
+
+.blur_parent_child {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  /* justify-content: space-evenly; */
+  height: 90%;
+  width: 89%;
+  /* border: 1px solid black; */
+  /* padding-top: 5em; */
+  overflow-y: auto;
+  gap: 1em;
+  /* padding-top: 5em; */
+}
+
+.company_logo {
+  height: 80%;
+  width: 70%;
+}
+
+@media only screen and (min-width:769px) and (orientation:landscape) {
+  .listting {
+
+    width: 85%;
+    height: 35%;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 9.072px;
+    background: #FFF;
+    box-shadow: 0px 0px 20px 0px rgba(224, 224, 224, 0.75);
+
+  }
+}

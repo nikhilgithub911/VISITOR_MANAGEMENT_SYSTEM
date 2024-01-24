@@ -1,0 +1,71 @@
+.viewport_camera{
+    height: 100vh;
+    width: 100vw;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.header_camera{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 0.35em;
+}
+
+.camera{
+    height: 70vh;
+    width: 90%;
+    flex-shrink: 0;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+
+    border-radius: 1.39044rem;
+    background: #FFF;
+    box-shadow: 0px 0px 20.022px 0px rgba(168, 168, 168, 0.36);
+
+    display: flex;
+    flex-direction: column;
+    padding-top: 2em;
+    gap: 2em;
+    align-items: center;
+}
+
+.camera_grid{
+    height: 70%;
+    width: 90%;
+    border: 1px solid black;
+    border-style: dashed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.modalTitle{
+    /* font-size: 1em; */
+    font-weight: bold;
+    font-size: 1.4em;
+    margin-top:1.5em;
+    word-spacing: 0.12em;
+}
+@media only screen and (max-width:767px){
+    .modalTitle{
+        /* font-size: 1em; */
+        font-weight: bold;
+        font-size: 1em;
+        margin-top:1.5em;
+        word-spacing: 0.12em;
+    }
+}
+
+@media only screen and (min-width:768px) and (orientation:landscape){
+    .modalTitle{
+        /* font-size: 1em; */
+        font-weight: bold;
+        font-size: 1.2em;
+        margin-top:1.5em;
+        word-spacing: 0.2em;
+    }
+}
